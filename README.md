@@ -1,14 +1,14 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:833AB4,50:E1306C,100:FCAF45&height=200&section=header&text=Instagram%20Downloader&fontColor=ffffff&fontSize=44&fontAlignY=62&animation=fadeIn" width="100%" alt="banner"/>
+<img src="assets/instagram.svg" width="110" height="110" alt="Instagram"/>
 
-<img src="assets/instagram.svg" width="96" height="96" alt="Instagram"/>
+# Instagram Downloader
 
-<a href="https://github.com/kyuuXzry/IG-DOWNLOADER-V2">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1000&color=E1306C&center=true&vCenter=true&width=520&lines=Plugin+WhatsApp+Bot+Downloader+Instagram;Reels+%7C+Foto+%7C+Carousel;Cookie+Jar+Otomatis+%26+Anti+Cloudflare" alt="Typing SVG"/>
-</a>
+**Plugin WhatsApp Bot untuk download konten Instagram**
 
-<br/><br/>
+Berbasis [Baileys](https://github.com/WhiskeySockets/Baileys). Mendukung video reels, slide foto, dan carousel, dengan cookie jar otomatis untuk melewati Cloudflare.
+
+<br/>
 
 <a href="https://github.com/kyuuXzry/IG-DOWNLOADER-V2/stargazers"><img src="https://img.shields.io/github/stars/kyuuXzry/IG-DOWNLOADER-V2?style=for-the-badge&logo=github&color=F77737&labelColor=0A0A0A" alt="Stars"/></a>
 <a href="https://github.com/kyuuXzry/IG-DOWNLOADER-V2/network/members"><img src="https://img.shields.io/github/forks/kyuuXzry/IG-DOWNLOADER-V2?style=for-the-badge&logo=github&color=E1306C&labelColor=0A0A0A" alt="Forks"/></a>
@@ -37,10 +37,6 @@
 <a href="#troubleshooting">Troubleshooting</a> ·
 <a href="#kontribusi">Kontribusi</a> ·
 <a href="#credit">Credit</a>
-
-<br/><br/>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:833AB4,50:E1306C,100:FCAF45&height=3" width="100%"/>
 
 </div>
 
@@ -173,17 +169,23 @@ node index.js
 
 ## Alur Kerja
 
-```mermaid
-flowchart LR
-    A[User kirim .ig + URL] --> B[Extract URL]
-    B --> C{Tipe konten}
-    C -->|Reels| D[Download MP4]
-    C -->|Post 1 foto| E[Download gambar]
-    C -->|Carousel| F[Download semua slide]
-    D --> G[Kirim ke WhatsApp]
-    E --> G
-    F --> H[Susun album] --> G
-    B -.->|403 / 503| I[Warmup cookie + retry] -.-> B
+```text
+User kirim .ig + URL
+        │
+        ▼
+   Extract URL
+        │
+        ▼
+   Tipe konten?
+   ├─ Reels ─────► Download MP4
+   ├─ 1 foto ────► Download gambar
+   └─ Carousel ──► Download semua slide
+                   └─► Susun album
+        │
+        ▼
+ Kirim ke WhatsApp
+
+403 / 503 ─► Warmup cookie ─► Retry
 ```
 
 ## Struktur
@@ -285,9 +287,5 @@ Project ini dibuat untuk keperluan edukasi dan penggunaan pribadi. Gunakan denga
 <br/><br/>
 
 <a href="https://github.com/kyuuXzry/IG-DOWNLOADER-V2"><img src="https://img.shields.io/badge/Kasih%20Bintang-Kalau%20Bermanfaat-FCAF45?style=for-the-badge&logo=github&logoColor=white&labelColor=0A0A0A" alt="Star"/></a>
-
-<br/><br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:833AB4,50:E1306C,100:FCAF45&height=120&section=footer" width="100%" alt="footer"/>
 
 </div>

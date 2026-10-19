@@ -1,28 +1,41 @@
 <div align="center">
 
-<img src="assets/instagram.svg" width="120" height="120" alt="Instagram"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:833AB4,50:E1306C,100:FCAF45&height=200&section=header&text=Instagram%20Downloader&fontColor=ffffff&fontSize=44&fontAlignY=62&animation=fadeIn" width="100%" alt="banner"/>
 
-# Instagram Downloader
+<img src="assets/instagram.svg" width="96" height="96" alt="Instagram"/>
 
-**Plugin WhatsApp Bot untuk download konten Instagram**
+<a href="https://github.com/kyuuXzry/IG-DOWNLOADER-V2">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1000&color=E1306C&center=true&vCenter=true&width=520&lines=Plugin+WhatsApp+Bot+Downloader+Instagram;Reels+%7C+Foto+%7C+Carousel;Cookie+Jar+Otomatis+%26+Anti+Cloudflare" alt="Typing SVG"/>
+</a>
 
-Berbasis [Baileys](https://github.com/WhiskeySockets/Baileys). Mendukung video reels, slide foto, dan carousel, dengan cookie jar otomatis untuk melewati Cloudflare.
+<br/><br/>
 
-<br/>
+<a href="https://github.com/kyuuXzry/IG-DOWNLOADER-V2/stargazers"><img src="https://img.shields.io/github/stars/kyuuXzry/IG-DOWNLOADER-V2?style=for-the-badge&logo=github&color=F77737&labelColor=0A0A0A" alt="Stars"/></a>
+<a href="https://github.com/kyuuXzry/IG-DOWNLOADER-V2/network/members"><img src="https://img.shields.io/github/forks/kyuuXzry/IG-DOWNLOADER-V2?style=for-the-badge&logo=github&color=E1306C&labelColor=0A0A0A" alt="Forks"/></a>
+<a href="https://github.com/kyuuXzry/IG-DOWNLOADER-V2/issues"><img src="https://img.shields.io/github/issues/kyuuXzry/IG-DOWNLOADER-V2?style=for-the-badge&logo=github&color=C13584&labelColor=0A0A0A" alt="Issues"/></a>
+<a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-FCAF45?style=for-the-badge&logo=opensourceinitiative&logoColor=white&labelColor=0A0A0A" alt="License"/></a>
 
-<a href="https://github.com/kyuuXzry/INSTAGRAM-DOWNLOADER/stargazers"><img src="https://img.shields.io/github/stars/kyuuXzry/INSTAGRAM-DOWNLOADER?style=flat-square&logo=github&color=F77737&labelColor=0A0A0A" alt="Stars"/></a>
-<a href="https://github.com/kyuuXzry/INSTAGRAM-DOWNLOADER/network/members"><img src="https://img.shields.io/github/forks/kyuuXzry/INSTAGRAM-DOWNLOADER?style=flat-square&logo=github&color=E1306C&labelColor=0A0A0A" alt="Forks"/></a>
-<img src="https://img.shields.io/badge/Node.js-v18+-833AB4?style=flat-square&logo=nodedotjs&logoColor=white&labelColor=0A0A0A" alt="Node.js"/>
-<a href="https://github.com/WhiskeySockets/Baileys"><img src="https://img.shields.io/badge/Baileys-WhatsApp-C13584?style=flat-square&logo=whatsapp&logoColor=white&labelColor=0A0A0A" alt="Baileys"/></a>
-<a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-FCAF45?style=flat-square&logo=opensourceinitiative&logoColor=white&labelColor=0A0A0A" alt="License"/></a>
+<img src="https://img.shields.io/github/last-commit/kyuuXzry/IG-DOWNLOADER-V2?style=flat-square&logo=git&logoColor=white&color=833AB4&labelColor=0A0A0A" alt="Last Commit"/>
+<img src="https://img.shields.io/github/repo-size/kyuuXzry/IG-DOWNLOADER-V2?style=flat-square&logo=files&logoColor=white&color=833AB4&labelColor=0A0A0A" alt="Repo Size"/>
+<img src="https://img.shields.io/github/languages/top/kyuuXzry/IG-DOWNLOADER-V2?style=flat-square&logo=javascript&logoColor=white&color=F7DF1E&labelColor=0A0A0A" alt="Top Language"/>
+<img src="https://img.shields.io/github/languages/code-size/kyuuXzry/IG-DOWNLOADER-V2?style=flat-square&color=E1306C&labelColor=0A0A0A" alt="Code Size"/>
+
+<img src="https://img.shields.io/badge/Node.js-v18+-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white&labelColor=0A0A0A" alt="Node.js"/>
+<a href="https://github.com/WhiskeySockets/Baileys"><img src="https://img.shields.io/badge/Baileys-WhatsApp-25D366?style=flat-square&logo=whatsapp&logoColor=white&labelColor=0A0A0A" alt="Baileys"/></a>
+<img src="https://img.shields.io/badge/Maintained-yes-brightgreen?style=flat-square&labelColor=0A0A0A" alt="Maintained"/>
+<img src="https://img.shields.io/badge/PRs-welcome-FCAF45?style=flat-square&labelColor=0A0A0A" alt="PRs Welcome"/>
+<img src="https://img.shields.io/badge/Cloudflare-Bypass-F38020?style=flat-square&logo=cloudflare&logoColor=white&labelColor=0A0A0A" alt="Cloudflare"/>
+<img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square&labelColor=0A0A0A" alt="Status"/>
 
 <br/><br/>
 
 <a href="#fitur">Fitur</a> ·
-<a href="#install">Install</a> ·
+<a href="#quick-start">Quick Start</a> ·
 <a href="#cara-pakai">Cara Pakai</a> ·
 <a href="#cara-pasang">Cara Pasang</a> ·
+<a href="#alur-kerja">Alur Kerja</a> ·
 <a href="#troubleshooting">Troubleshooting</a> ·
+<a href="#kontribusi">Kontribusi</a> ·
 <a href="#credit">Credit</a>
 
 <br/><br/>
@@ -62,10 +75,13 @@ Berbasis [Baileys](https://github.com/WhiskeySockets/Baileys). Mendukung video r
 </tr>
 </table>
 
-## Install
+## Quick Start
 
 ```bash
+git clone https://github.com/kyuuXzry/IG-DOWNLOADER-V2.git
+cd IG-DOWNLOADER-V2
 npm install tough-cookie axios-cookiejar-support
+cp igdl.js /path/ke/bot/plugins/
 ```
 
 | Package | Fungsi | Versi |
@@ -122,11 +138,11 @@ npm install tough-cookie axios-cookiejar-support
 
 **2. Salin plugin**
 
-Taruh file `instagram.js` di folder `plugins/` bot kamu.
+Taruh file `igdl.js` di folder `plugins/` bot kamu.
 
 ```text
 plugins/
-└── instagram.js
+└── igdl.js
 ```
 
 **3. Pastikan variabel tersedia**
@@ -155,14 +171,28 @@ plugins/
 node index.js
 ```
 
+## Alur Kerja
+
+```mermaid
+flowchart LR
+    A[User kirim .ig + URL] --> B[Extract URL]
+    B --> C{Tipe konten}
+    C -->|Reels| D[Download MP4]
+    C -->|Post 1 foto| E[Download gambar]
+    C -->|Carousel| F[Download semua slide]
+    D --> G[Kirim ke WhatsApp]
+    E --> G
+    F --> H[Susun album] --> G
+    B -.->|403 / 503| I[Warmup cookie + retry] -.-> B
+```
+
 ## Struktur
 
 ```text
-INSTAGRAM-DOWNLOADER
+IG-DOWNLOADER-V2
 ├── assets
 │   └── instagram.svg
-├── plugins
-│   └── instagram.js
+├── igdl.js
 ├── LICENSE
 └── README.md
 ```
@@ -208,15 +238,31 @@ Pastikan install di folder bot.
 Warmup otomatis tiap 25 menit. Kalau error, tunggu sebentar atau restart bot.
 </details>
 
+## Kontribusi
+
+Pull request dan issue sangat diterima.
+
+1. Fork repo ini
+2. Buat branch fitur: `git checkout -b fitur/nama-fitur`
+3. Commit perubahan: `git commit -m "feat: deskripsi singkat"`
+4. Push branch: `git push origin fitur/nama-fitur`
+5. Buka Pull Request
+
+Nemu bug? [Buka issue](https://github.com/kyuuXzry/IG-DOWNLOADER-V2/issues/new).
+
 ## Tech Stack
 
 <div align="center">
 
-<img src="https://cdn.simpleicons.org/nodedotjs/5FA04E" width="44" height="44" alt="Node.js" title="Node.js"/>&nbsp;&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/javascript/F7DF1E" width="44" height="44" alt="JavaScript" title="JavaScript"/>&nbsp;&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/whatsapp/25D366" width="44" height="44" alt="Baileys (WhatsApp)" title="Baileys (WhatsApp)"/>&nbsp;&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/axios/5A29E4" width="44" height="44" alt="Axios" title="Axios"/>
+<img src="https://cdn.simpleicons.org/nodedotjs/5FA04E" width="44" height="44" alt="Node.js" title="Node.js"/>&nbsp;&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/javascript/F7DF1E" width="44" height="44" alt="JavaScript" title="JavaScript"/>&nbsp;&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/whatsapp/25D366" width="44" height="44" alt="Baileys (WhatsApp)" title="Baileys (WhatsApp)"/>&nbsp;&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/axios/5A29E4" width="44" height="44" alt="Axios" title="Axios"/>&nbsp;&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/cloudflare/F38020" width="44" height="44" alt="Cloudflare" title="Cloudflare"/>
 
-<sub>Node.js · JavaScript · Baileys · Axios</sub>
+<sub>Node.js · JavaScript · Baileys · Axios · Cloudflare Bypass</sub>
 
 </div>
+
+## Disclaimer
+
+Project ini dibuat untuk keperluan edukasi dan penggunaan pribadi. Gunakan dengan bijak, hormati hak cipta kreator, dan patuhi ketentuan layanan Instagram.
 
 ## Credit
 
@@ -224,12 +270,13 @@ Warmup otomatis tiap 25 menit. Kalau error, tunggu sebentar atau restart bot.
 
 **Author** · KyuuAI
 
-<a href="https://wa.me/628567126744"><img src="https://img.shields.io/badge/WhatsApp-Hubungi-25D366?style=flat-square&logo=whatsapp&logoColor=white&labelColor=0A0A0A" alt="WhatsApp"/></a>
-<a href="https://instagram.com/Rissxzry_"><img src="https://img.shields.io/badge/Instagram-Follow-E1306C?style=flat-square&logo=instagram&logoColor=white&labelColor=0A0A0A" alt="Instagram"/></a>
+<a href="https://wa.me/628567126744"><img src="https://img.shields.io/badge/WhatsApp-Hubungi-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=0A0A0A" alt="WhatsApp"/></a>
+<a href="https://instagram.com/Rissxzry_"><img src="https://img.shields.io/badge/Instagram-Follow-E1306C?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0A0A0A" alt="Instagram"/></a>
+<a href="https://github.com/kyuuXzry"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0A0A0A" alt="GitHub"/></a>
 
 **Scraper** · igexport.com
 
-<a href="https://igexport.com"><img src="https://img.shields.io/badge/Website-igexport.com-833AB4?style=flat-square&logo=googlechrome&logoColor=white&labelColor=0A0A0A" alt="igexport.com"/></a>
+<a href="https://igexport.com"><img src="https://img.shields.io/badge/Website-igexport.com-833AB4?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0A0A0A" alt="igexport.com"/></a>
 
 <br/>
 
@@ -237,6 +284,10 @@ Warmup otomatis tiap 25 menit. Kalau error, tunggu sebentar atau restart bot.
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:833AB4,50:E1306C,100:FCAF45&height=3" width="100%"/>
+<a href="https://github.com/kyuuXzry/IG-DOWNLOADER-V2"><img src="https://img.shields.io/badge/Kasih%20Bintang-Kalau%20Bermanfaat-FCAF45?style=for-the-badge&logo=github&logoColor=white&labelColor=0A0A0A" alt="Star"/></a>
+
+<br/><br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:833AB4,50:E1306C,100:FCAF45&height=120&section=footer" width="100%" alt="footer"/>
 
 </div>

@@ -1,97 +1,165 @@
 <div align="center">
 
-<img src="assets/instagram.svg" width="110" height="110" alt="Instagram Downloader"/>
+<img src="assets/instagram.svg" width="120" height="120" alt="Instagram Downloader"/>
 
 # Instagram Downloader
 
-**WhatsApp bot plugin untuk mengunduh Reels, foto, dan carousel Instagram**
+**Plugin WhatsApp bot untuk mengunduh Reels, foto, dan carousel Instagram**
 
-Dibangun di atas [Baileys](https://github.com/WhiskeySockets/Baileys) dengan cookie jar otomatis, auto-warmup, dan auto-retry untuk melewati proteksi Cloudflare.
+Berbasis [Baileys](https://github.com/WhiskeySockets/Baileys), dilengkapi cookie jar otomatis, auto-warmup, dan auto-retry untuk melewati proteksi Cloudflare.
 
 <br/>
 
 <a href="https://github.com/kyuuXzry/IG-DOWNLOADER-V2/stargazers"><img src="https://img.shields.io/github/stars/kyuuXzry/IG-DOWNLOADER-V2?style=for-the-badge&logo=github&color=F77737&labelColor=0A0A0A" alt="Stars"/></a>
 <a href="https://github.com/kyuuXzry/IG-DOWNLOADER-V2/network/members"><img src="https://img.shields.io/github/forks/kyuuXzry/IG-DOWNLOADER-V2?style=for-the-badge&logo=github&color=E1306C&labelColor=0A0A0A" alt="Forks"/></a>
-<a href="https://github.com/kyuuXzry/IG-DOWNLOADER-V2/issues"><img src="https://img.shields.io/github/issues/kyuuXzry/IG-DOWNLOADER-V2?style=for-the-badge&logo=github&color=C13584&labelColor=0A0A0A" alt="Issues"/></a>
+<a href="https://github.com/kyuuXzry/IG-DOWNLOADER-V2/watchers"><img src="https://img.shields.io/github/watchers/kyuuXzry/IG-DOWNLOADER-V2?style=for-the-badge&logo=github&color=C13584&labelColor=0A0A0A" alt="Watchers"/></a>
+<a href="https://github.com/kyuuXzry/IG-DOWNLOADER-V2/issues"><img src="https://img.shields.io/github/issues/kyuuXzry/IG-DOWNLOADER-V2?style=for-the-badge&logo=github&color=833AB4&labelColor=0A0A0A" alt="Issues"/></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-FCAF45?style=for-the-badge&logo=opensourceinitiative&logoColor=white&labelColor=0A0A0A" alt="License"/></a>
 
 <img src="https://img.shields.io/github/last-commit/kyuuXzry/IG-DOWNLOADER-V2?style=flat-square&logo=git&logoColor=white&color=833AB4&labelColor=0A0A0A" alt="Last Commit"/>
-<img src="https://img.shields.io/github/repo-size/kyuuXzry/IG-DOWNLOADER-V2?style=flat-square&color=833AB4&labelColor=0A0A0A" alt="Repo Size"/>
-<img src="https://img.shields.io/github/languages/top/kyuuXzry/IG-DOWNLOADER-V2?style=flat-square&logo=javascript&logoColor=white&color=F7DF1E&labelColor=0A0A0A" alt="Language"/>
+<img src="https://img.shields.io/github/commit-activity/m/kyuuXzry/IG-DOWNLOADER-V2?style=flat-square&logo=github&color=E1306C&labelColor=0A0A0A" alt="Commit Activity"/>
+<img src="https://img.shields.io/github/repo-size/kyuuXzry/IG-DOWNLOADER-V2?style=flat-square&color=F77737&labelColor=0A0A0A" alt="Repo Size"/>
+<img src="https://img.shields.io/github/languages/code-size/kyuuXzry/IG-DOWNLOADER-V2?style=flat-square&color=C13584&labelColor=0A0A0A" alt="Code Size"/>
+<img src="https://img.shields.io/github/languages/top/kyuuXzry/IG-DOWNLOADER-V2?style=flat-square&logo=javascript&logoColor=white&color=F7DF1E&labelColor=0A0A0A" alt="Top Language"/>
+
 <img src="https://img.shields.io/badge/Node.js-%E2%89%A518-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white&labelColor=0A0A0A" alt="Node.js"/>
 <a href="https://github.com/WhiskeySockets/Baileys"><img src="https://img.shields.io/badge/Baileys-WhatsApp-25D366?style=flat-square&logo=whatsapp&logoColor=white&labelColor=0A0A0A" alt="Baileys"/></a>
+<img src="https://img.shields.io/badge/Axios-HTTP%20Client-5A29E4?style=flat-square&logo=axios&logoColor=white&labelColor=0A0A0A" alt="Axios"/>
+<img src="https://img.shields.io/badge/Cloudflare-Bypass-F38020?style=flat-square&logo=cloudflare&logoColor=white&labelColor=0A0A0A" alt="Cloudflare"/>
+<img src="https://img.shields.io/badge/Platform-Linux%20%7C%20Windows%20%7C%20Termux-833AB4?style=flat-square&logo=linux&logoColor=white&labelColor=0A0A0A" alt="Platform"/>
+
+<img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square&labelColor=0A0A0A" alt="Status"/>
 <img src="https://img.shields.io/badge/Maintained-yes-brightgreen?style=flat-square&labelColor=0A0A0A" alt="Maintained"/>
 <img src="https://img.shields.io/badge/PRs-welcome-FCAF45?style=flat-square&labelColor=0A0A0A" alt="PRs Welcome"/>
+<img src="https://img.shields.io/badge/Made%20with-%E2%9D%A4-E1306C?style=flat-square&labelColor=0A0A0A" alt="Made with love"/>
 
 <br/><br/>
 
-[Overview](#overview) · [Fitur](#fitur) · [Instalasi](#instalasi) · [Penggunaan](#penggunaan) · [Konfigurasi](#konfigurasi) · [Arsitektur](#arsitektur) · [Troubleshooting](#troubleshooting) · [Kontribusi](#kontribusi) · [Credit](#credit)
+[Highlights](#highlights) · [Preview](#preview) · [Quick Start](#quick-start) · [Command](#command) · [Cara Kerja](#cara-kerja) · [FAQ](#faq) · [Roadmap](#roadmap) · [Kontribusi](#kontribusi) · [Credit](#credit)
 
 </div>
 
 <br/>
 
-## Overview
+## Daftar Isi
 
-Instagram Downloader adalah plugin command untuk bot WhatsApp berbasis Baileys. Cukup kirim link Instagram atau reply pesan yang berisi link, bot otomatis mendeteksi tipe konten lalu mengirimkan hasilnya dalam format yang sesuai: video MP4, gambar tunggal, atau album carousel.
+- [Highlights](#highlights)
+- [Preview](#preview)
+- [Quick Start](#quick-start)
+- [Command](#command)
+- [Cara Kerja](#cara-kerja)
+- [Kompatibilitas](#kompatibilitas)
+- [Troubleshooting](#troubleshooting)
+- [FAQ](#faq)
+- [Roadmap](#roadmap)
+- [Struktur Proyek](#struktur-proyek)
+- [Kontribusi](#kontribusi)
+- [Tech Stack](#tech-stack)
+- [Disclaimer](#disclaimer)
+- [Lisensi](#lisensi)
+- [Credit](#credit)
 
-Data konten diambil dari [igexport.com](https://igexport.com). Request memakai cookie jar yang di-warmup otomatis, sehingga sesi tetap valid dan request yang terblokir Cloudflare dicoba ulang tanpa campur tangan manual.
-
-## Fitur
+## Highlights
 
 <table width="100%">
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-**Core**
+**Deteksi Cerdas**
 
-- Deteksi otomatis Reels vs Slide
-- Dukungan video dan foto carousel
-- Cookie jar otomatis
-- Auto-warmup cookie tiap 25 menit
-- Auto-retry saat kena Cloudflare (403/503)
+Membedakan Reels, foto tunggal, dan carousel secara otomatis tanpa command tambahan.
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-**Pengalaman Pengguna**
+**Tahan Blokir**
 
-- Album untuk slide berisi banyak foto
-- Input lewat URL langsung atau reply pesan
-- Ekstraksi URL otomatis dari caption/teks
-- Thumbnail slide dari foto asli Instagram
-- Caption formal tanpa emoji
+Cookie jar, warmup tiap 25 menit, dan auto-retry saat terkena Cloudflare 403/503.
+
+</td>
+<td width="33%" valign="top">
+
+**Input Fleksibel**
+
+Kirim URL langsung, reply pesan, atau biarkan bot mengambil link dari caption/teks.
+
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+
+**Album Carousel**
+
+Slide banyak foto dikirim sebagai album, lengkap dengan thumbnail dari foto asli Instagram.
+
+</td>
+<td width="33%" valign="top">
+
+**Caption Bersih**
+
+Format caption formal tanpa emoji, siap dipakai untuk bot berkarakter profesional.
+
+</td>
+<td width="33%" valign="top">
+
+**Plug and Play**
+
+Satu file plugin, dua dependency tambahan, langsung jalan di bot Baileys kamu.
 
 </td>
 </tr>
 </table>
 
-## Instalasi
+## Preview
 
-### Prasyarat
+```text
+┌─────────────────────────────────────────────┐
+│ User                                        │
+│ .ig https://www.instagram.com/reel/C8xYz/   │
+├─────────────────────────────────────────────┤
+│ Bot                                         │
+│ [ Video MP4 ]                               │
+├─────────────────────────────────────────────┤
+│ User                                        │
+│ .ig https://www.instagram.com/p/C8xYz/      │
+├─────────────────────────────────────────────┤
+│ Bot                                         │
+│ [ Album Carousel ]                          │
+└─────────────────────────────────────────────┘
+```
 
-| Kebutuhan | Versi |
-| :-- | :-- |
-| Node.js | 18 atau lebih baru |
-| Bot WhatsApp | Berbasis Baileys (`makeWASocket`) |
+## Quick Start
 
-### Langkah
+**1. Clone repository**
 
 ```bash
 git clone https://github.com/kyuuXzry/IG-DOWNLOADER-V2.git
 cd IG-DOWNLOADER-V2
+```
+
+**2. Install dependency di folder bot**
+
+```bash
 npm install tough-cookie axios-cookiejar-support
+```
+
+**3. Salin plugin**
+
+```bash
 cp igdl.js /path/ke/bot/plugins/
 ```
 
-Restart bot setelah plugin disalin:
+**4. Restart bot**
 
 ```bash
 node index.js
 ```
 
 > [!IMPORTANT]
-> Jalankan `npm install` di dalam folder bot kamu, bukan di folder repo ini, supaya dependency terbaca oleh plugin.
+> Jalankan `npm install` di folder bot kamu, bukan di folder repo ini, supaya dependency terbaca oleh plugin.
+
+> [!NOTE]
+> Kalau nama instance di bot kamu bukan `conn`, ganti pemakaian `conn` di plugin dengan nama instance bot kamu.
 
 ### Dependency
 
@@ -102,73 +170,32 @@ node index.js
 | `axios-cookiejar-support` | Bridge Axios dan cookie jar | <img src="https://img.shields.io/npm/v/axios-cookiejar-support?style=flat-square&color=E1306C&labelColor=0A0A0A" alt="axios-cookiejar-support"/> |
 | `crypto` | Modul bawaan Node.js | <img src="https://img.shields.io/badge/built--in-yes-833AB4?style=flat-square&labelColor=0A0A0A" alt="crypto"/> |
 
-## Penggunaan
+## Command
 
-### Kirim URL langsung
+| Command | Input | Output |
+| :-- | :-- | :-- |
+| `.ig <url>` | Link Reels atau video | Video MP4 |
+| `.ig <url>` | Link post berisi 1 foto | Gambar |
+| `.ig <url>` | Link post berisi banyak foto | Album carousel |
+| `.ig` | Reply pesan yang berisi link | Sesuai tipe konten |
 
-```bash
-.ig https://www.instagram.com/reel/xxxxx/
-.ig https://www.instagram.com/p/xxxxx/
-```
-
-### Reply pesan
-
-Reply pesan yang berisi link Instagram, lalu kirim:
-
-```bash
-.ig
-```
-
-### Hasil
-
-| Input | Output |
-| :-- | :-- |
-| Reels / Video | Video MP4 |
-| Post dengan 1 foto | Gambar |
-| Post dengan banyak foto | Album carousel |
-
-### Contoh percakapan
+**Format URL yang didukung**
 
 ```text
-User: .ig https://www.instagram.com/reel/C8xYz123abc/
-Bot:  [Mengirim video Reels]
-
-User: .ig https://www.instagram.com/p/C8xYz123abc/
-Bot:  [Mengirim gambar atau album]
+https://www.instagram.com/reel/<id>/
+https://www.instagram.com/p/<id>/
 ```
 
-## Konfigurasi
-
-Plugin membutuhkan variabel berikut tersedia di handler bot kamu.
-
-| Variabel | Tipe | Deskripsi |
-| :-- | :-- | :-- |
-| `conn` | Object | Instance WhatsApp (`makeWASocket`) |
-| `m` | Object | Message object |
-| `text` | String | Isi pesan setelah command |
-| `prefix` | String | Prefix bot (umumnya `.`) |
-| `command` | String | Command yang diketik pengguna |
-| `Reply` | Function | Fungsi untuk membalas pesan |
-| `isRegistered` | Boolean | Status registrasi pengguna |
-| `isCreator` | Boolean | Status owner/creator |
-| `checkLimit` | Function | Cek sisa limit pengguna |
-| `addLimit` | Function | Tambah pemakaian limit |
-| `daftar` | Function | Fungsi registrasi pengguna |
-| `global.mess` | Object | Kumpulan pesan template |
-
-> [!NOTE]
-> Kalau nama instance di bot kamu bukan `conn`, ganti semua pemakaian `conn` di plugin dengan nama instance bot kamu.
-
-## Arsitektur
+## Cara Kerja
 
 ```text
 .ig <url>
    │
    ▼
-Ekstrak URL dari teks / pesan yang di-reply
+Ekstrak URL dari teks atau pesan yang di-reply
    │
    ▼
-Request ke igexport.com (cookie jar aktif)
+Request ke igexport.com dengan cookie jar aktif
    │
    ├── 403 / 503 ──► Warmup cookie ──► Retry
    │
@@ -184,18 +211,42 @@ Deteksi tipe konten
 | Cookie jar | Menyimpan sesi antar request |
 | Warmup | Menyegarkan cookie setiap 25 menit |
 | Retry | Mengulang request saat diblokir Cloudflare |
-| Type detector | Menentukan format output (video, gambar, album) |
+| Type detector | Menentukan format output: video, gambar, atau album |
 
-## Struktur Proyek
+## Kompatibilitas
 
-```text
-IG-DOWNLOADER-V2
-├── assets
-│   └── instagram.svg
-├── igdl.js
-├── LICENSE
-└── README.md
-```
+| Environment | Status |
+| :-- | :--: |
+| Node.js 18+ | 
+
+![ok](https://img.shields.io/badge/-Didukung-brightgreen?style=flat-square)
+
+ |
+| Linux / VPS | 
+
+![ok](https://img.shields.io/badge/-Didukung-brightgreen?style=flat-square)
+
+ |
+| Windows | 
+
+![ok](https://img.shields.io/badge/-Didukung-brightgreen?style=flat-square)
+
+ |
+| Termux (Android) | 
+
+![ok](https://img.shields.io/badge/-Didukung-brightgreen?style=flat-square)
+
+ |
+| Baileys (WhiskeySockets) | 
+
+![ok](https://img.shields.io/badge/-Didukung-brightgreen?style=flat-square)
+
+ |
+| Post private | 
+
+![no](https://img.shields.io/badge/-Tidak%20didukung-red?style=flat-square)
+
+ |
 
 ## Troubleshooting
 
@@ -241,6 +292,63 @@ Warmup berjalan otomatis tiap 25 menit. Jika error muncul, tunggu sebentar atau 
 
 </details>
 
+## FAQ
+
+<details>
+<summary><b>Apakah perlu login Instagram atau API key?</b></summary>
+<br/>
+
+Tidak. Data diambil lewat igexport.com, jadi tidak ada akun maupun API key yang perlu disiapkan.
+
+</details>
+
+<details>
+<summary><b>Bisa dipakai di bot selain Baileys?</b></summary>
+<br/>
+
+Plugin ditulis untuk Baileys. Untuk library lain, bagian pengiriman media perlu disesuaikan.
+
+</details>
+
+<details>
+<summary><b>Kenapa post private tidak bisa diunduh?</b></summary>
+<br/>
+
+Konten private membutuhkan sesi login pemilik akun, sementara plugin ini hanya mengakses konten publik.
+
+</details>
+
+<details>
+<summary><b>Boleh dimodifikasi dan dibagikan ulang?</b></summary>
+<br/>
+
+Boleh, selama mengikuti lisensi MIT dan tetap mencantumkan credit.
+
+</details>
+
+## Roadmap
+
+- [x] Deteksi otomatis Reels dan Slide
+- [x] Dukungan carousel dalam bentuk album
+- [x] Cookie jar dan auto-warmup
+- [x] Auto-retry untuk Cloudflare
+- [x] Input via reply pesan
+- [ ] Pilihan kualitas video
+- [ ] Download audio dari Reels
+- [ ] Dukungan Stories dan Highlights
+- [ ] Cache hasil unduhan
+
+## Struktur Proyek
+
+```text
+IG-DOWNLOADER-V2
+├── assets
+│   └── instagram.svg
+├── igdl.js
+├── LICENSE
+└── README.md
+```
+
 ## Kontribusi
 
 Kontribusi berupa issue maupun pull request sangat diterima.
@@ -251,15 +359,15 @@ Kontribusi berupa issue maupun pull request sangat diterima.
 4. Push branch: `git push origin fitur/nama-fitur`
 5. Buka Pull Request
 
-Menemukan bug? [Buka issue baru](https://github.com/kyuuXzry/IG-DOWNLOADER-V2/issues/new).
+Gunakan format commit [Conventional Commits](https://www.conventionalcommits.org/) (`feat`, `fix`, `docs`, `refactor`). Menemukan bug? [Buka issue baru](https://github.com/kyuuXzry/IG-DOWNLOADER-V2/issues/new).
 
 ## Tech Stack
 
 <div align="center">
 
-<img src="https://cdn.simpleicons.org/nodedotjs/5FA04E" width="44" height="44" alt="Node.js" title="Node.js"/>&nbsp;&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/javascript/F7DF1E" width="44" height="44" alt="JavaScript" title="JavaScript"/>&nbsp;&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/whatsapp/25D366" width="44" height="44" alt="Baileys" title="Baileys"/>&nbsp;&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/axios/5A29E4" width="44" height="44" alt="Axios" title="Axios"/>&nbsp;&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/cloudflare/F38020" width="44" height="44" alt="Cloudflare" title="Cloudflare"/>
+<img src="https://cdn.simpleicons.org/nodedotjs/5FA04E" width="44" height="44" alt="Node.js" title="Node.js"/>&nbsp;&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/javascript/F7DF1E" width="44" height="44" alt="JavaScript" title="JavaScript"/>&nbsp;&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/whatsapp/25D366" width="44" height="44" alt="Baileys" title="Baileys"/>&nbsp;&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/axios/5A29E4" width="44" height="44" alt="Axios" title="Axios"/>&nbsp;&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/cloudflare/F38020" width="44" height="44" alt="Cloudflare" title="Cloudflare"/>&nbsp;&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/git/F05032" width="44" height="44" alt="Git" title="Git"/>
 
-<sub>Node.js · JavaScript · Baileys · Axios · Cloudflare Bypass</sub>
+<sub>Node.js · JavaScript · Baileys · Axios · Cloudflare Bypass · Git</sub>
 
 </div>
 
@@ -286,5 +394,9 @@ Dirilis di bawah [MIT License](LICENSE). Bebas dipakai, dimodifikasi, dan dibagi
 <br/>
 
 <a href="https://github.com/kyuuXzry/IG-DOWNLOADER-V2"><img src="https://img.shields.io/badge/Beri%20Bintang-Jika%20Bermanfaat-FCAF45?style=for-the-badge&logo=github&logoColor=white&labelColor=0A0A0A" alt="Star"/></a>
+
+<br/><br/>
+
+<sub>Jangan hapus credit, hargai creator.</sub>
 
 </div>
